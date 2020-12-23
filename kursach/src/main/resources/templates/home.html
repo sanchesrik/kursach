@@ -6,7 +6,8 @@
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<heared th:insert="blocks/header :: header" ></heared>
+<div th:insert="blocks/header :: header" ></div>
+
 <main>
         <!-- START THE FEATURETTES -->
 
@@ -51,11 +52,8 @@
 
         <hr class="featurette-divider">
 
-        <!-- /END THE FEATURETTES -->
+    <div th:insert="blocks/footer :: footer" ></div>
 
-    </div><!-- /.container -->
-
-    <footer th:insert="blocks/footer :: footer" ></footer>
 </main>
 
 </body>
