@@ -4,18 +4,92 @@
     <title th:text="${title}"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body{background-color: #bfbfbf;}
+    </style>
 </head>
 <body>
 <div th:insert="blocks/header :: header" ></div>
 
-<main>
+<main >
 
-     <div class="container mt=5">
-         <h1 th:text="${title}"/>
-     </div>
-    <div th:insert="blocks/footer :: footer" ></div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Voopoo Drag 2 177w</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="http://cdn.shopify.com/s/files/1/0821/4791/products/drag-2-kit2_1024x1024.jpg?v=1565827102" width="180" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location.href = 'https://shop.voopoo.com/black-drag';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Lost Vape Therion 166w</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="https://nanosmoking.com/image/cache/data/Бокс%20моды/Lost%20Vape/Lost%20Vape%20Therion%20DNA166-500x500.jpg" width="180" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.location.href = 'https://папироска.рф/product/lost-vape-therion-dna-166w/#description';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Smokjoy Gotta God 120w</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="https://vape-store.us/vape-store/wp-content/uploads/2017/12/SMOKJOY-Gotta-God-Mech-MOD-3500mAh_003854103ece.jpg" width="180" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location.href = 'https://vape.academy/catalog/elektronnye_sigarety/boksmod_smokjoy_gotta_god/';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Eleaf Ijust 3 pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="http://vapeshopdragon.ru/image/cache/catalog/tovar3/tovar35/ijust-3-pro-kit-1-785x1000.jpg" width="180" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.location.href = 'http://vapeshopdragon.ru/mod/star-mod/eleaf%20ijust%203%20pro%20kit';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Augvape Druga Foxy 150w</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="https://vapetiger.ru/image/cache/catalog/Mods/augvape/druga_foxy/2-800x800.jpg" width="180" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location.href = 'https://папироска.рф/product/augvape-druga-foxy-150w-boksmod/#description';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 fw-normal">Wismec Predator 228w</h4>
+                </div>
+                <div class="card-body">
+                    <h1><img src="https://images.ua.prom.st/994675944_w200_h200_predator_228_mod_only.png" width="200" height="180"></h1>
+                    <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.location.href = 'https://kurgan.fathervape.ru/wismec-predator-228/';" >Сlick to go to the store</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </main>
-
+<div th:insert="blocks/footer :: footer" ></div>
 </body>
 </html>

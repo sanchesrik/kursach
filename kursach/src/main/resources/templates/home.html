@@ -4,6 +4,9 @@
     <title th:text="${title}"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body{background-color: #bfbfbf;}
+    </style>
 </head>
 <body>
 <div th:insert="blocks/header :: header" ></div>
@@ -15,12 +18,16 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Только оригинальные товары </h2>
+                <p>7VAPE работает только с проверенными поставщиками и предлагает своим Покупателям качественную продукцию от известных производителей. Для нас главная задача - удовлетворенность Покупателя. Именно поэтому мы придерживаемся четкой гарантийной политики, а иногда готовы пойти навстречу.</p>
+                <p>Установлены следующие гарантийные сроки:</p>
+                <ul><li>На электронные персональные парогенераторы (наборы, моды) - 30 календарных дней</li><li>На жидкости для электронных парогенераторов гарантийный срок отсутствует</li><li>На клиромайзеры, дрипки, атомайзеры, испарители, сменные аккумуляторы и прочие комплектующие гарантийный срок отсутствует</li></ul>
+                <p>Все устройства, в названии которых нет приставок «клон» или «clone», являются подлинными/оригинальными.</p>
+                <p>Вы можете убедиться в этом при получении товара. Зайдите на официальный сайт производителя и проверьте устройство по скретч-коду (если это предусмотрено изготовителем)</p>
+                <p>На нашем сайте представлены только оригинальные жидкости. Мы никогда не предлагали подделки жидкостей своим клиентам и не собираемся это делать. </p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+                <img src="https://thumbs.dreamstime.com/b/d-image-white-people-examines-folders-renderer-background-49352208.jpg" width="480" height="480">
             </div>
         </div>
 
@@ -28,12 +35,12 @@
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Доставка Почтой России или СДЭК</h2>
+                <p>СДЕК занимается доставкой товаров в большинство городов России. Это один из быстрых, надежных и недорогих способов доставки. Именно эти критерии важны для наших клиентов. Товар можно получить в любом из пунктов выдачи Вашего города или оформить доставку заказанного товара до двери. Этот способ доставки необходимо выбирать при оформлении заказа в корзине (пункт выдачи или курьер), если Вам важны скорость доставки и нужна оплата при получении (наложенный платеж).</p>
+                <p>Почта России - отличный вариант для тех, кто живет в отдаленных регионах России, либо по каким-то причинам предпочитает данный способ доставки. Обращаем внимание, что заказы данным способом отправляются только после онлайн оплаты на сайте, наложенный платеж невозможен.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+                <img src="https://cstor.nn2.ru/blog/data/blog/2019-04/1971659_1554283643.jpg" width="480" height="480">
             </div>
         </div>
 
@@ -41,15 +48,17 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Скидки и специальные предложения</h2>
+                <p>Интернет-магазин 7VAPE рад предложить своим покупателям скидки на наиболее востребованные категории товаров. Скидка – это отличная возможность приобрести понравившийся товар по выгодной цене. Наши спецпредложения основаны лишь на том, что мы хотим оказаться ближе к своему клиенту, скидки на вейпы в нашем магазине НИКОГДА не бывают связаны с истекающим сроком годности и браком товара. Это честные скидки, со списком Вы можете ознакомиться ниже.</p>
+                <h3>На доставку</h3>
+                <ul><li>Бесплатно – при заказе от 9000 рублей (стоимость доставки в корзине не должна превышать 470 рублей)</li><li>Бесплатно до Пункта выдачи заказов (СДЭК, Boxberry) - при заказе от 4000 рублей (стоимость доставки в корзине не должна превышать 240 рублей)</li></ul>
+                <h3>На устройства</h3>
+                <ul><li>5% - при покупке 2-х устройств</li><li>10% - при покупке 3-х устройств</li><li>20% - при покупке 3-х и более устройств</li></ul>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+                <img src="https://us.123rf.com/450wm/billbarkas/billbarkas1005/billbarkas100500028/6973433-shopping-at-sales-time-a-3d-image.jpg?ver=6" width="480" height="480">
             </div>
         </div>
-
         <hr class="featurette-divider">
 
     <div th:insert="blocks/footer :: footer" ></div>
